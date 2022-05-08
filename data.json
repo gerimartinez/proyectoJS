@@ -74,7 +74,7 @@
    }, 
    {
     "id": 9,
-    "imagen": "./imagenes/background.png",
+    "imagen": "./imagenes/background.jpg",
     "nombre": "CLAUD",
     "cantidad": 1,
     "maximo": 5,
