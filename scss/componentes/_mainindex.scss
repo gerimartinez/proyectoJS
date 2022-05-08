@@ -1,0 +1,220 @@
+header {
+    background-color: #3e2d4b; }
+  
+  .navbar-geri {
+    background-color: #3e2d4b; }
+  
+  body {
+    background-color: #f9f3fc; }
+  
+  .bodyProductos {
+    background-color: #f9f3fc; }
+  
+  .btn-comprar {
+      background-color: #c2abe9;
+      color: white;
+      border: none;
+  }
+  .btn-comprar:hover {
+     color: whitesmoke;
+     background-color: #3e2d4b;
+  }
+  #logo {
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  #containerCard {
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 3em;
+  }
+  .items-personalizados {
+    color: whitesmoke;
+  }
+ 
+    h1 {
+        background-color: #c2abe9;
+        color: whitesmoke;
+        font-family: "Raleway", sans-serif;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px; }
+      .align-items-center {
+        padding-bottom: 50px;
+      }
+    
+/*Carrito*/
+      .filaDelCarrito{
+        border-bottom: 0.1em solid black;
+        margin: 1em;
+      }
+      .texto_del_carrito{
+        font-family: "Dancing Script";
+        font-size: 250%;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 0.5em;
+        color: #3e2d4b;
+      }
+      #carrito{
+        width: 25em;
+        height: auto;
+        background-size: 220%;
+      }
+      #total {
+        font-family: "Dancing Script";
+        font-size: 175%;
+        font-weight: lighter;
+        text-align: center;
+        padding-top: 0.5em;
+        color: black;
+      }
+      .btn-dark {
+        background-color: #c2abe9;
+        color: whitesmoke;
+        border: none;
+      }
+      .btn-dark:hover {
+        background-color: #3e2d4b;
+        color: whitesmoke;
+      }
+      .btn-danger {
+        border-bottom: #c2abe9;
+        border: none;
+        margin: 10px;
+      }
+      .btn-danger:hover {
+        color: whitesmoke;
+        background-color: #3e2d4b;
+      }
+     .my-toast {
+       font-family: "Arial";
+       font-size: 124%;
+       font-weight: lighter;
+       color: "whitesmoke";
+          
+     }
+
+/*Footer*/
+
+ footer {
+    background-color: #3e2d4b;
+    color: whitesmoke;
+    text-align: center;
+    list-style-type: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  footer nav ul {
+     list-style-type: none; }
+  .footerProductos {
+    display: flex;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 20px;
+  }
+  .imagen {
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    width: 33.3%;
+    justify-content: center;
+  }
+ .imgFooter {
+   width: 65%;
+  }
+  .redes {
+    display: flex;
+    margin: 0%;
+    align-items: center;
+    width: 33.3%;
+    justify-content: center;
+  }
+  .info {
+    width: 33.3%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+ .fa-envelope-open  {
+        color: whitesmoke;
+        font-size: 50px;
+        text-align: start;
+        margin: 30px;
+  }
+ .fa-facebook {
+        color: whitesmoke;
+        margin: 30px;
+        font-size: 50px;
+        text-align: center;
+ }
+ .fa-instagram {
+        color: whitesmoke;
+        margin: 30px;
+        font-size: 50px;
+        text-align: center;
+ }
+ .fa-envelope-open:hover {
+        color: #c2abe9;
+ }
+ .fa-facebook:hover {
+        color: #c2abe9;
+ }
+ .fa-instagram:hover {
+        color: #c2abe9;
+  }
+ .correo:hover {
+        color: #c2abe9;
+        transition: none;
+  }
+ .infoFooter {
+        color: whitesmoke;
+        background-color: #3e2d4b;
+        font-weight: initial;
+        list-style-type: none;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+ }
+      
+ .stay {
+        color: #c2abe9;
+        font-size: 40px;
+        font-family: "Zen Old Mincho", serif;
+        font-style: oblique;
+        text-align: center;
+        font-weight: bolder;
+        padding-bottom: 30px;
+  padding-top: 0.5em }
+ .volverAHome {
+        background-color: #c2abe9;
+        color: whitesmoke;
+        text-align: start;
+        margin: 0.5em;
+        padding: 0.80rem 0.80rem;
+        border-radius: 0.25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+   }
+
+  a:hover {
+        color: #3e2d4b;
+        font-weight: bolder;
+        transition: all 0.3s; }
+      
+ .correo, .info {
+        font-size: 20px;
+        color: whitesmoke;
+        background-color: #3e2d4b;
+        font-family: "Zen Old Mincho", serif;
+        display: inline-block;
+        margin-left: 30px;
+        text-align: center; }
+      
+      

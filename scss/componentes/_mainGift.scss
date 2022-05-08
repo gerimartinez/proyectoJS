@@ -1,0 +1,65 @@
+.tituloGift {
+    background-color: #c2abe9;
+    color: whitesmoke;
+  }
+  .regalo {
+    font-size: 40px;
+    font-family: "Zen Old Mincho", serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #0f0b0f; }
+  
+  .imgGift {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px; }
+  
+  .producto {
+    padding-top: 20px; }
+  
+  .titulo {
+    font-size: 25px;
+    font-family: "Zen Old Mincho", serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    color: #0f0b0f; }
+  
+  .infoGift {
+    font-family: "Zen Old Mincho", serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    color: #0f0b0f; }
+  
+  .pago {
+    font-family: "Zen Old Mincho", serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    color: #0f0b0f; }
+  
+  .tituloSquad {
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 30px;
+    color: #0f0b0f; }
+  
+  .container {
+    display: flex;
+    justify-content: end;
+    width: 100%; }
+  
+  .squad {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em; }
