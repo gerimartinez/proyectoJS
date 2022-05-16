@@ -134,7 +134,7 @@ function finalizarCompra() {
 
 let datos;
 // crea card de cada producto 
- fetch("http://localhost:5500/data.json")
+ fetch("./data.json")
      .then((res) => res.json())
      .then((data) => {
        datos = data;
