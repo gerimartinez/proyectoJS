@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Raleway:wght@200&family=Roboto+Flex:opsz@8..144&display=swap');
+
 header {
-  background-color: #3e2d4b;
+  background-color: #f1e3fd;
 }
 
 .navbar-geri {
   background-color: #3e2d4b;
+  font-family: "Belleza";
+}
+
+.nav-link {
+  font-family: "Belleza";
+  font-size: 20px;
 }
 
 body {
@@ -26,9 +34,10 @@ body {
 }
 
 #logo {
-  color: whitesmoke;
+  color: #3e2d4b;
   font-size: 25px;
   font-weight: bolder;
+  font-family: "Belleza";
 }
 
 #containerCard {
@@ -47,7 +56,7 @@ body {
 h1 {
   background-color: #c2abe9;
   color: whitesmoke;
-  font-family: "Raleway", sans-serif;
+  font-family: "Belleza";
   text-align: center;
   font-weight: bolder;
   font-size: 50px;
@@ -430,5 +439,235 @@ hr {
   align-items: center;
   padding-bottom: 2em;
 }
+
+/*Mobile*/
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  /*Index*/
+  .modelosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .mar, .dist, .est {
+    padding-top: 10px; }
+  .col1 {
+    width: 100%; }
+  .col2 {
+    width: 100%; }
+  .col3 {
+    width: 100%; }
+  .ver {
+    padding-bottom: 10px; }
+  .armonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    background: none;
+    width: 100%; }
+  .row {
+    width: 100%; }
+  .martiImg {
+    width: 100%;
+    justify-content: center;
+    margin-left: 10px; }
+  .col-sm-6 {
+    background-color: whitesmoke;
+    width: 100%;
+    justify-content: center; }
+  .colArmon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+    font-style: italic; }
+  .queEsArmon {
+    text-align: center;
+    width: 20%;
+    padding-top: 10px;
+    color: #9550A6; }
+  .martina {
+    margin: 20px; }
+  .printContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start; }
+  .colprint {
+    width: 90%;
+    padding-top: 15px; }
+  .verModelo {
+    text-align: center; }
+  .iconsSocial {
+    width: 75%; }
+  ul {
+    display: flex;
+    flex-wrap: wrap; }
+  .followUs {
+    text-align: center; }
+  .footerRedes {
+    display: flex;
+    flex-wrap: wrap; }
+  .infoFooter {
+    display: flex;
+    flex-wrap: wrap; }
+  li {
+    width: 100%; }
+  /*Seccion Armon*/
+  ul {
+    display: inline-flex; }
+  .bodyArmon {
+    background-color: #f9f3fc; }
+  .mainArmon {
+    display: grid;
+    align-items: center;
+    grid-template-areas: "mainP"
+ "mainP"
+ "mainP"
+ "imgSeparador"
+ "modGustarte"
+ "modGustarte"
+ "img1"
+ "verCarra"
+ "img2"
+ "verMila"
+ "img3"
+ "verAfrica";
+    grid-template-columns: unset; }
+  .mainP {
+    grid-area: mainP;
+    width: 100%;
+    font-size: 17px;
+    padding-top: 30px;
+    text-align: start;
+    margin-left: 5px; }
+  .modGustarte {
+    grid-area: modGustarte;
+    font-size: 25px;
+    padding-top: 50px; }
+  .imgSeparador {
+    grid-area: imgSeparador;
+    width: 100%; }
+  .imgMarti {
+    width: 100%; }
+  .img1 {
+    grid-area: img1;
+    width: 100%; }
+  .img2 {
+    grid-area: img2;
+    width: 100%; }
+  .img3 {
+    grid-area: img3;
+    width: 100%; }
+  .imgGustarte {
+    width: 100%;
+    text-align: center; }
+  /*Seccion GiftCard*/
+  .imgGift {
+    width: 100%; }
+  .imgGiftCard {
+    width: 100%; }
+  .producto {
+    font-size: 10px; }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .tituloSquad {
+    width: 25px; }
+  .squad {
+    width: 100%;
+    justify-content: center;
+    padding-top: 15px; }
+  .info {
+    align-items: center; }
+  /*Seccion Productos*/
+  .tituloProductos {
+    width: 100%; }
+  .prod {
+    display: flex;
+    flex-wrap: wrap; }
+  /*Seccion Contacto*/
+  .tituloContacto {
+    width: 100%; }
+  .containerContacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .armon3d {
+    width: 95%;
+    padding-bottom: 30px;
+    margin: 10px; }
+  .texto {
+    margin: 10px; } }
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Index */
+  .parrafoCarousel {
+    width: 50%; }
+  .dist {
+    width: 65%; }
+  .mar {
+    width: 65%; }
+  .est {
+    width: 65%; }
+  .imgPrint {
+    width: 85%; }
+  .queEsArmon {
+    width: 60%; }
+  .martiImg {
+    width: 80%; }
+  /*Armon*/
+  .mainArmon {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: "mainP"
+ "imgSeparador"
+ "modGustarte"
+ "img1"
+ "verCarra"
+ "img2"
+ "verMila"
+ "img3"
+ "verAfrica";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); }
+  .mainP {
+    width: 100%;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin: 0%;
+    padding-top: 30px;
+    grid-column: 2 / 2;
+    grid-template-rows: 1 / 3;
+    padding-bottom: 20px; }
+  .imgGustarte {
+    width: 100%;
+    text-align: center;
+    grid-column: 3 / 4;
+    grid-template-rows: 1 / 3; } }
+
+/*Desktop*/
+@media only screen and (min-width: 1024px) {
+  .mainArmon {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: "mainP mainP mainP"
+ "mainP mainP mainP"
+ "imgSeparador imgSeparador imgSeparador"
+ "hr hr hr"
+ "modGustarte modGustarte modGustarte"
+ "modGustarte modGustarte modGustarte"
+ "img1 img2 img3"
+ "verCarra verMila verAfrica"; }
+  .mainP {
+    grid-area: mainP; }
+  .imgSeparador {
+    grid-area: imgSeparador;
+    grid-template-columns: 1 / 3;
+    grid-template-rows: 1/ 2; }
+  hr {
+    grid-area: hr; } }
 
 /*# sourceMappingURL=armon.css.map */
